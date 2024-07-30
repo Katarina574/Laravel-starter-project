@@ -16,7 +16,7 @@
                     <x-dropdown align="right" width="48">
                         <x-slot name="trigger">
                             <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
-                                <div>{{ __('Choose Language') }}</div>
+                                <div>{{ __('Change Language / Promeni jezik') }}</div>
 
                                 <div class="ms-1">
                                     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -31,7 +31,7 @@
                                 {{ __('English') }}
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('lang', ['locale' => 'sr'])">
-                                {{ __('Serbian') }}
+                                {{ __('Srpski') }}
                             </x-dropdown-link>
                         </x-slot>
                     </x-dropdown>
@@ -67,7 +67,7 @@
                     <x-slot name="content">
                         @auth
                             <x-dropdown-link :href="route('profile.edit')">
-                                {{ __('Profile') }}
+                                {{ __('messages.profile') }}
                             </x-dropdown-link>
 
                             <!-- Authentication -->

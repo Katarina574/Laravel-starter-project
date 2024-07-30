@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'welcome' => 'Welcome to the application!',
+    'welcome' => 'Welcome!',
     'goodbye' => 'Goodbye and see you again!',
     'dashboard' => 'Dashboard',
     'hello' => 'Hi, User!',
@@ -9,4 +9,24 @@ return [
     'register' => 'Register',
     'logout' => 'Logout',
     'profile' => 'Profile',
+    'profile-information' => 'Profile Information',
+    'profile-description' => 'Update your profile information',
+    'name' => 'Name',
+    'mail' => 'Email',
+    'save' => 'Save',
+    'password' => 'Password',
+    'cancel' => 'Cancel',
+    'remember-me' => 'Remember me',
+    'update-password' => 'Update Password',
+    'password-info' => 'Ensure your password is long and secure',
+    'current-password' => 'Current Password',
+    'new-password' => 'New Password',
+    'forgot-password' => 'Forgot your password?',
+    'confirm-password' => 'Confirm Password',
+    'delete-account' => 'Delete Account',
+    'delete-account-info' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.',
+    'delete-account-btn' => 'Delete Account',
+    'delete-account-you-sure' => 'Are you sure you want to delete your account?',
+    'delete-account-follow-up' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.',
+    'already-registered' => 'Already registered?',
 ];
